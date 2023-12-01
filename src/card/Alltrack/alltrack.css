@@ -1,0 +1,52 @@
+.trackInformation{
+    display: flex;
+    justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: bold;
+  position: relative;
+  top: 50px;
+  font-size: 12px;
+}
+.img2{
+   
+    position: relative;
+    top: 50px;
+    
+}
+.img23{
+
+    position: relative;
+    left: 163px;
+    top: 35px;
+height: 80px;
+border-radius: 6px;
+
+}
+.premium{
+    position: relative;
+    left: 170px;
+    padding: 0 15px 0 15px;
+    color: white;
+    background-color: red;
+}
+.ar{
+    position: relative;
+    left: 660px;
+    bottom: 50px;
+}
+.st{
+    position: relative;
+    left: 350px;
+    bottom: 33px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.ar1{
+    position: relative;
+    left: 70px;
+}
+.st1{
+    position: relative;
+    left: 1000px;
+    bottom: 67px;
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+   background-color: rgb(245,245, 245);
+    border: solid 1px white; height: 65px;
+    flex-wrap: wrap;
+
+}
+.left{
+    margin-top: 30px;
+width: 50%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+svg{
+    position: absolute;
+    left: 50px;
+}
+.logo{
+    position: absolute;
+    left: 100px;
+}
+.input{
+    margin: 20px;
+    position: absolute;
+    left: 250px;
+
+  
+}
+#r{
+   
+    border-radius: 30px;
+    border: none;
+   
+
+}
+.svg{
+    position: relative;
+    bottom: 15px;
+}
+.right{
+    display: flex;
+    float: right;
+    position: relative;
+    bottom: 25px;
+}
+
+.btngana{
+    position: relative;
+    right: 100px;
+}
+button{
+    position: relative;
+    margin: 15px;
+    color: red;
+    border: 1px solid red;
+    font-size: 12px;
+  
+    padding: 6px 12px 6px 12px;
+    border-radius: 20px;
+
+}
+.img{
+    margin: 13px;
+    position: relative;
+    right: 100px;
+}
+.ightmode{
+    position: relative;
+    right: 100px;
+}
+.n{
+    position: relative;
+    right: 100px;
+    margin: 13px;
+    
+}
+.login{
+    position: relative;
+    bottom: 30px;
+    right: 20px;
+    margin: 13px;
+}
