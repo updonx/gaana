@@ -29,8 +29,10 @@ function Home() {
     <div className="caro">
     <Carousel responsive={responsive} >
       {name.map((music, key) => (
+       <div  key={key} className="slider-image">
+
         <Homecard
-          key={key}
+         
           hedding={music.appType}
           artist={music.artist}
           creaditat={music.createdAt}
@@ -42,7 +44,9 @@ function Home() {
           v={music._v}
           id={music._id}
           url={music.audio_url}
+          
         />
+        </div>
       ))}
     </Carousel>
     </div>
